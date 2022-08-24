@@ -1,23 +1,24 @@
 #pragma once
-#include "BasicBrick.h";
+#include<SFML/Graphics.hpp>;
+#include "BrickMain.h";
 
-class TransparentBrick :public BasicBrick
+class TransparentBrick 
 {
 public:
 	TransparentBrick();
 	~TransparentBrick();
-	
-	
+	void LoadTextures();
 
 public:
 	
 	sf::RectangleShape transparentBrick;
-	float positionX = 1;
-	float positionY = 1;
+	/*float positionx = 1;
+	float positiony = 1;*/
 	const int width = 200;
-	const int length = 100;
-	float positionXoffset = 100.0f;
-	float posittionYoffset = 50.0f;
+	const int length = 60;
+	/*float positionxoffset = 100.0f;
+	float posittionyoffset = 50.0f;*/
+	sf::Texture TransparentBrickTexture;
 };
 
 

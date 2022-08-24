@@ -3,9 +3,12 @@
 
 Ball::Ball()
 {
-	this->InitializeObject();
-	this->BallMovement();
-	this->BounceY();
+
+	this->ball.setRadius(radius);
+
+	this->ball.setPosition(StartingPositionX, StartingPositionY);
+	ballTexture.loadFromFile("Textures/Ball.png");
+	ball.setTexture(&ballTexture);
 }
 
 Ball::~Ball()
@@ -29,15 +32,7 @@ void Ball::BallMovement()
 }
 
 
-void Ball::InitializeObject()
-{
-	this->ball.setRadius(radius);
 
-	this->ball.setPosition(StartingPositionX, StartingPositionY);	
-	ballTexture.loadFromFile("Textures/Ball.png");
-	ball.setTexture(&ballTexture);
-
-}
 
 void Ball::BounceY()
 {

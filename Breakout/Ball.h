@@ -2,16 +2,16 @@
 #include "Brick.h"
 #include<vector>;
 #include<iostream>;
-class Ball : protected Object
+class Ball 
 {
 public:
 	Ball();
 	~Ball();
 	void BallMovement();
-	void InitializeObject();
+	
 	void BounceY();
 	void BounceX();
-	//int &getLives() { return this->lives; }
+	
 
 protected:
 	float radius = 12;
@@ -25,10 +25,8 @@ protected:
     static int  lives;
 	sf::CircleShape ball;
 	sf::Texture ballTexture;
+	sf::Vector2f Movement;
 	
-	
-	 
-
 };
 
 

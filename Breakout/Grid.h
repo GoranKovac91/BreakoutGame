@@ -7,28 +7,26 @@
 #include <time.h>;
 
 
-class Grid:protected BasicBrick
+class Grid:protected BasicBrick,protected TransparentBrick
 {
 public:
 	Grid();
 	~Grid();
     void InitializeLevel1();
+	
 	std::vector<sf::RectangleShape>& getGrid() { return Level1; }
+	
 	
 	
 
 protected:
 	std::vector<sf::RectangleShape> Level1 ;
 	int random;
+	float positionXoffset = 150;
+	float positionx = 1;
+	float positiony = 1;
+	float posittionYoffset = 50.0f;
 	
-	
-	
-	
-
 
 
 };
-
-
-
-

@@ -1,33 +1,18 @@
-﻿  Game.cpp
-C:\Users\goran\source\repos\Breakout\Breakout\Game.h(3,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Game.h(4,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\BasicBrick.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Brick.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\BasicBrick.h(3,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\BasicBrick.h(4,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Game.h(6,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Ball.h(3,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Ball.h(4,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Game.h(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Grid.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Grid.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Grid.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Grid.h(5,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\TransparentBrick.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Grid.h(6,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Grid.h(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Game.h(8,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Collisions.h(2,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Collisions.h(3,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Collisions.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Game.h(9,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Game.h(11,23): warning C4584: 'Game': base-class 'BasicBrick' is already a base-class of 'Grid'
-C:\Users\goran\source\repos\Breakout\Breakout\BasicBrick.h(10): message : see declaration of 'BasicBrick'
-C:\Users\goran\source\repos\Breakout\Breakout\Grid.h(10): message : see declaration of 'Grid'
-C:\Users\goran\source\repos\Breakout\Breakout\Game.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Game.cpp(3,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Game.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Game.cpp(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Game.cpp(7,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-C:\Users\goran\source\repos\Breakout\Breakout\Game.cpp(130): warning C4715: 'Game::Collision': not all control paths return a value
-  Breakout.vcxproj -> C:\Users\goran\source\repos\Breakout\x64\Debug\Breakout.exe
+﻿  Grid.cpp
+D:\source\repos\Breakout\Breakout\Grid.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\source\repos\Breakout\Breakout\BasicBrick.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\source\repos\Breakout\Breakout\Brick.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\source\repos\Breakout\Breakout\BasicBrick.h(3,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\source\repos\Breakout\Breakout\BasicBrick.h(4,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\source\repos\Breakout\Breakout\Grid.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\source\repos\Breakout\Breakout\Grid.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\source\repos\Breakout\Breakout\Grid.h(5,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\source\repos\Breakout\Breakout\TransparentBrick.h(2,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\source\repos\Breakout\Breakout\TransparentBrick.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\source\repos\Breakout\Breakout\BrickMain.h(7,41): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\source\repos\Breakout\Breakout\BrickMain.h(8,41): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\source\repos\Breakout\Breakout\Grid.h(6,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\source\repos\Breakout\Breakout\Grid.h(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\source\repos\Breakout\Breakout\Grid.cpp(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+D:\source\repos\Breakout\Breakout\Grid.cpp(22,13): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Breakout.vcxproj -> D:\source\repos\Breakout\x64\Debug\Breakout.exe

@@ -1,16 +1,16 @@
 #pragma once
+#include "Imovable.h";
 #include<SFML/Graphics.hpp>
-class Paddle
+class Paddle:public IMoveable
 {
 public:
 	Paddle();
 	~Paddle();
-	void Move();
-	void InitializePaddle();
 	float X() { return _paddle.getPosition().x; }
 	float Y() { return _paddle.getPosition().y; }
 	float PaddleLeft() { return X() -  _paddle.getSize().x / 2.f; }
 	float PaddleRight() { return X() + _paddle.getSize().x / 2.f; }
+	void Move() override;
 	
 	
 

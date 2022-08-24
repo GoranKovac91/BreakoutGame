@@ -39,6 +39,9 @@
     <ClCompile Include="TransparentBrick.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Imovable.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Game.h">
@@ -63,6 +66,12 @@
       <Filter>Source Files</Filter>
     </ClInclude>
     <ClInclude Include="TransparentBrick.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Imovable.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BrickMain.h">
       <Filter>Source Files</Filter>
     </ClInclude>
   </ItemGroup>

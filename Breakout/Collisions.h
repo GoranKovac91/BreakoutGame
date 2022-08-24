@@ -2,10 +2,7 @@
 #include<SFML/Graphics.hpp>;
 #include<vector>;
 #include <iostream>;
-#include <list>
-
-
-
+#include <list>;
 
 class Collisions
 {
