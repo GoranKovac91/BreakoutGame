@@ -13,18 +13,15 @@ public:
 	BasicBrick();
 	~BasicBrick();
 	void LoadTextures();
+	void Damage(int damage);
 	
 
 		
 public:
 	sf::RectangleShape _basicBrick;
-	/*float positionX=1;
-	float positionY=1;*/
 	const int width=200;
 	const int length=60;
-	/*float positionXoffset=150;
-	float posittionYoffset = 50.0f;*/
-	
+	int health = 10;
 	sf::Texture texture;
 	sf::Texture texture1;
 	

@@ -26,6 +26,7 @@ protected:
 	sf::CircleShape ball;
 	sf::Texture ballTexture;
 	sf::Vector2f Movement;
+	int damage = 5;
 	
 };
 

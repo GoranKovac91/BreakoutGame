@@ -13,15 +13,19 @@ public:
 	Grid();
 	~Grid();
     void InitializeLevel1();
-	
 	std::vector<sf::RectangleShape>& getGrid() { return Level1; }
-	
-	
-	
 
 protected:
-	std::vector<sf::RectangleShape> Level1 ;
-	int random;
+	std::vector<sf::RectangleShape> Level1{ 
+	_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick ,
+	_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick ,
+	_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,
+	_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick, 
+	_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick, 
+	_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick ,
+	_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick, 
+	_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick, };
+
 	float positionXoffset = 150;
 	float positionx = 1;
 	float positiony = 1;
