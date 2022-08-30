@@ -2,7 +2,7 @@
 #include<SFML/Graphics.hpp>;
 #include "BrickMain.h";
 
-class TransparentBrick 
+class TransparentBrick:protected BrickMain
 {
 public:
 	TransparentBrick();
@@ -13,9 +13,8 @@ public:
 protected:
 	
 	sf::RectangleShape doubleBrick;
-	int health = 20;
-	const int width = 200;
-	const int length = 60;
+	static int health ;
+	
 	sf::Texture TransparentBrickTexture;
 };
 

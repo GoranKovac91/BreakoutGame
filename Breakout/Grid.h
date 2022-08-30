@@ -24,7 +24,7 @@ protected:
 	_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick, 
 	_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick ,
 	_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick, 
-	_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick, };
+	_basicBrick,doubleBrick,_basicBrick,doubleBrick,_basicBrick,doubleBrick };
 
 	float positionXoffset = 150;
 	float positionx = 1;

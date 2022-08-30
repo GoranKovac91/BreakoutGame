@@ -1,19 +1,32 @@
 #pragma once
+enum class BrickType
+{
+	EBasic,
+	EDouble
+};
 class BrickMain
 {
 public:
 	BrickMain();
 	~BrickMain();
-	void SetPositionX(int x) { positionX = x; }
-	void SetPositionY(int y) { positionY = y; }
+	int GetWidth() { return width; }
+	int GetLength() { return length; }
+	BrickType GetType() { return m_type; }
+	float GetOutlineThickness() { return outlineThickness; }
+	float GetScaleX() { return scaleX; }
+	float GetScaleY() { return scaleY; }
+	
+	
+	
 
 protected:
-	float positionX ;
-	float positionY ;
-	const int width= 200 ;
-	const int length= 60;
-	float positionXoffset = 150;
-	float posittionYoffset = 50.0f;
+
+	const int width = 200 ;
+	const int length = 60;
+	float outlineThickness=-3.f;
+	BrickType m_type;
+	float scaleX = 0.5f;
+	float scaleY = 0.5f;
 };
 
 

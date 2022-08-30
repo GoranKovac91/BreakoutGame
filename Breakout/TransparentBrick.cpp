@@ -2,9 +2,10 @@
 
 TransparentBrick::TransparentBrick()
 {
-	doubleBrick.setSize(sf::Vector2f(width, length));
-	doubleBrick.setScale(sf::Vector2f(0.5f, 0.5f));
-	doubleBrick.setOutlineThickness(-3.f);
+	m_type = BrickType::EDouble;
+	doubleBrick.setSize(sf::Vector2f(GetWidth(), GetLength()));
+	doubleBrick.setScale(sf::Vector2f(GetScaleX(), GetScaleY()));
+	doubleBrick.setOutlineThickness(GetOutlineThickness());
 	doubleBrick.setOutlineColor(sf::Color::Black);
 	TransparentBrickTexture.loadFromFile("Textures/Texture.jpg");
 	doubleBrick.setTexture(&TransparentBrickTexture);

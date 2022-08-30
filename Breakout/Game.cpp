@@ -88,6 +88,7 @@ void Game::Update()
 	this->BrickBallBounce();
 	this->PaddleBallBounce();
 	this->BounceY();
+	
 		
 }
 

@@ -15,7 +15,6 @@ Grid::~Grid()
 void Grid::InitializeLevel1()
 {
 	
-	
 	for (int i = 0; i < Level1.size(); i++)
 	{
 		Level1[i].setPosition(positionx, positiony);
@@ -26,8 +25,6 @@ void Grid::InitializeLevel1()
 			positiony += posittionYoffset;
 			positionx = 1;
 		}
-
-
 
 	}
 			

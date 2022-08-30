@@ -5,6 +5,8 @@
 #include <vector>;
 #include <time.h>;
 int Ball::lives = 3;
+int TransparentBrick::health = 20;
+int BasicBrick::health = 10;
 //breakout game 
 //klasa paddle ,klasa game logic(collsion detection,time
 

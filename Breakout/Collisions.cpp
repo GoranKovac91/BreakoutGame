@@ -17,9 +17,16 @@ bool Collisions::TopLeft(std::vector<sf::RectangleShape>& v, sf::CircleShape b)
 		auto BrickSize = v[i].getScale();
 		if (Intersect(v[i],b) && BallPosition.x < BrickPosition.x && BallPosition.y <= BrickPosition.y - (BrickSize.y / 2))
 		{
-			v.erase(v.begin() + i);
-			return true;
-			std::cout<<"1" << b.getPosition().x << '\n' << BrickPosition.x << '\n' << std::endl;
+			
+			TransparentBrick::health -= 10;
+			std::cout << TransparentBrick::health;
+			if (TransparentBrick::health <= 0)
+			{
+				v.erase(v.begin() + i);
+				return true;
+				
+			}
+		
 
 			
 		}
@@ -37,9 +44,15 @@ bool Collisions::TopRight(std::vector<sf::RectangleShape>& v, sf::CircleShape b)
 		;
 		if (Intersect(v[i], b) && BallPosition.x > BrickPosition.x && BallPosition.y <= BrickPosition.y - (BrickSize.y / 2))
 		{
-			v.erase(v.begin() + i);
-			
-			return true;
+			TransparentBrick::health -= 10;
+			std::cout << TransparentBrick::health;
+			if (TransparentBrick::health <= 0)
+			{
+				
+				v.erase(v.begin() + i);
+				return true;
+				
+			}
 			
 		
 		}
@@ -56,8 +69,14 @@ bool Collisions::BotLeft(std::vector<sf::RectangleShape>& v, sf::CircleShape b)
 		auto BrickSize = v[i].getScale();
 		if (Intersect(v[i], b) && BallPosition.x <= BrickPosition.x && BallPosition.y >= BrickPosition.y + (BrickSize.y / 2))
 		{
-			v.erase(v.begin() + i);
-			return true;
+			std::cout << TransparentBrick::health;
+			TransparentBrick::health -= 10;
+			if (TransparentBrick::health <= 0)
+			{
+				v.erase(v.begin() + i);
+				return true;
+				
+			}
 			
 
 		}
@@ -74,8 +93,14 @@ bool Collisions::BotRight(std::vector<sf::RectangleShape>& v, sf::CircleShape b)
 		auto BrickSize = v[i].getScale();
 		if (Intersect(v[i], b) && BallPosition.x > BrickPosition.x && BallPosition.y >= BrickPosition.y + (BrickSize.y / 2))
 		{
-			v.erase(v.begin() + i);
-			return true;
+			std::cout << TransparentBrick::health;
+			TransparentBrick::health -= 10;
+			if (TransparentBrick::health <= 0)
+			{
+				v.erase(v.begin() + i);
+				return true;
+				
+			}
 		}
 	}
 	return false;
